@@ -7,7 +7,7 @@ The project demonstrates end-to-end DevOps implementation, including Infrastruct
 
 The primary objective is to automate expense management while ensuring high availability, scalability, security, and operational efficiency.
 
-Tech Stack: 
+# Tech Stack 
 
 1. AWS Cloud (EC2- 3 Servers)
 
