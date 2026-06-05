@@ -10,6 +10,9 @@ The primary objective is to automate expense management while ensuring high avai
 # Tech Stack 
 
 1. AWS Cloud (EC2- 3 Servers)
+2. Database (DB)- mysql
+3. Backend - nginx
+4. Frontend - nodejs
 
 # 3 Tier Architecture
 
