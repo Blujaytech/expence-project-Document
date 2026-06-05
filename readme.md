@@ -1,4 +1,4 @@
-Project Description: Expense Management Application
+# Project Description: Expense Management Application
 Project Overview
 
 The Expense Management Application is a microservices-based web application designed to manage employee and organizational expenses. The application enables users to create, track, update, and monitor expense records through a secure and scalable platform.
