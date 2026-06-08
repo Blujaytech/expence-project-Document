@@ -73,7 +73,7 @@ Description = Backend Service
 
 [Service]
 User=expense
-Environment=DB_HOST="<MYSQL-SERVER-IPADDRESS>"
+Environment=DB_HOST="<MYSQL-SERVER-PublicIP>"
 ExecStart=/bin/node /app/index.js
 SyslogIdentifier=backend
 
@@ -81,7 +81,7 @@ SyslogIdentifier=backend
 WantedBy=multi-user.target
 ```
 
-**NOTE: Ensure you replace <MYSQL-SERVER-IPADDRESS> with IP address**
+**NOTE: Ensure you replace <MYSQL-SERVER-PublicIP> with IP address**
 
 Load the service.
 
@@ -110,7 +110,7 @@ dnf install mysql -y
 Load Schema
 
 ```
-mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h <MYSQL-SERVER-PublicIP> -uroot -pExpenseApp@1 < /app/schema/backend.sql
 ```
 
 Restart the service.
